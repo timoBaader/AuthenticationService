@@ -19,5 +19,7 @@ namespace AuthenticationService.Models
         public string PasswordHash { get; set; } = string.Empty;
 
         public DateTime RegistrationDate { get; set; } = DateTime.UtcNow;
+
+        public virtual ICollection<UserRole> UserRoles { get; set; }
     }
 }
