@@ -20,6 +20,6 @@ namespace AuthenticationService.Models
 
         public DateTime RegistrationDate { get; set; } = DateTime.UtcNow;
 
-        public virtual ICollection<UserRole> UserRoles { get; set; }
+        public virtual ICollection<UserRole>? UserRoles { get; set; }
     }
 }

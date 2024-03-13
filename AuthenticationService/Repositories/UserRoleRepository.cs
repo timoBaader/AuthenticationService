@@ -1,7 +1,7 @@
 ﻿using AuthenticationService.Data;
 using AuthenticationService.Models;
-using Microsoft.EntityFrameworkCore;
 using AuthenticationService.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace AuthenticationService.Repositories
 {
